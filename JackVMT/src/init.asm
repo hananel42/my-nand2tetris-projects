@@ -3,7 +3,21 @@ D=A
 @SP
 M=D
 
-
+@retAddr0
+D=A
+@R13
+M=D
+@5
+D=A
+@R14
+M=D
+@$Sys.init
+D=A
+@R15
+M=D
+@DO_CALL
+0;JMP
+(retAddr0)
 
 
 (END)
