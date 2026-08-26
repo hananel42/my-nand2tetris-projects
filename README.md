@@ -34,11 +34,11 @@ https://youtube.com/playlist?list=PLrDd_kMiAuNmllp9vuPqCuttC1XL9VyVh
 
 This repository will include (as it grows):
 
-- VM Translator
-- Assembler
-- Compiler (Jack → VM)
-- Operating System components
-- Additional experiments and optimizations
+- [x] VM Translator
+- [x] Assembler
+- [x] Compiler (Jack → VM)
+- [ ] Operating System components
+- [ ] Additional experiments and optimizations
 
 ---
 
