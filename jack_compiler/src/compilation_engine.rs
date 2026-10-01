@@ -190,6 +190,7 @@ macro_rules! expr_start {
             | IntegerConst(_)
             | StringConst(_)
             | constant_keyword!()
+            | unary_op!()
             | Symbol(Symbol::LeftParen)
     };
 }
